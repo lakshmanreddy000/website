@@ -1,0 +1,560 @@
+body {
+    margin: 1px;
+    background-color: #f3f2ef;
+}
+.banner {
+    background: #ff545a;
+    color: #fff;
+    position: relative;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .banner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .limited-offer-hours {
+    background-color: black;
+    color: #ff545a;
+
+    padding: 15px;
+    margin-left: 350px;
+    margin-right: -300px;
+    animation: popInOut is ease-in-out infinite;
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .banner-button {
+    background: white;
+    color: #000;
+    padding: 16px;
+    text-decoration: none;
+    margin-left: -300px;
+
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 10;
+    }
+  }
+  @keyframes popInOut {
+    0%, 10% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+.announcement-text {
+    background-color: #f7d9cb; /* Set your desired background color */
+    color: #7a3331; /* Set your desired text color */
+    text-align: center;
+    padding: 10px;
+    font: 5px poppins, sans-serif;
+    letter-spacing: 2px;
+}
+
+.toolbar_menu a{
+    text-decoration: none;
+    color: #7a3331;
+    font: 11.05px poppins, sans-serif;
+    padding:10px;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.icon-instagram,
+.icon-facebook,
+.icon-youtube, .icon-pinterest {
+    color: #7a3331;
+    width: 20px;
+    height: 20px;
+}
+.icon-instagram {
+    margin-left: 100px; /* Adjust as needed */
+}
+
+.icon-facebook {
+    margin-left: -5px; /* Adjust as needed */
+}
+
+.icon-youtube {
+    margin-left: -5px; /* Adjust as needed */
+}
+.icon-pinterest{
+    margin-left: -5px; /* Adjust as needed */
+
+}
+
+.logomenu {
+    border-top: 0.3px solid rgba(64, 58, 58, 0.189);
+    display: flex;
+    justify-content: space-between;
+  }
+.search-logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-bar {
+    border: 1px solid #7a3331;
+    display: flex;
+    align-items: center;
+    background-color: #f9f4f4; /* Adjust the background color as needed */
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 300px; /* Adjust the margin as needed */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.search-icon {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
+.logo img {
+    align-items: center;
+    width: 90px;
+    height: 60px;
+    padding: 5px;
+    margin-right: 420px;
+}
+
+
+.icon-heart{
+    color: #7a3331;
+    width: 32px; /* Adjust the width as needed */
+    height: 23px; /* Adjust the height as needed */
+    margin-left: 15px; /* Adjust the margin as needed */
+    fill:none ;
+    stroke-width: 16px;
+    stroke:currentColor;
+}
+
+.icon-user{
+    color: #7a3331;
+    width: 28px; /* Adjust the width as needed */
+    height: 28px; /* Adjust the height as needed */
+    margin-left: 15px; /* Adjust the margin as needed */
+    fill:none ;
+    stroke-width: 2.8px;
+    stroke:currentColor;
+}
+.icon-cart{
+    color: #7a3331;
+    width: 32px; /* Adjust the width as needed */
+    height: 43px; /* Adjust the height as needed */
+    margin-left: 15px; /* Adjust the margin as needed */
+    fill:none ;
+    stroke-width: 3px;
+    stroke:currentColor;
+    }
+
+  
+    .icon-cart circle{
+        fill:currentColor !important;
+      }
+      /*------------- dropdown------------*/
+      h1, h2, h3, p, ul, li {
+        margin: 5px;
+        padding: 0;
+        letter-spacing: 0.7px;
+      }
+      
+      /* Style the navbar */
+      .navbar {
+        background-color: #f0eeee; 
+      }
+      
+      /* Style the list inside the navbar */
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      /* Style the list items */
+      .navbar li {
+        float: left;
+      }
+      
+      /* Style the links inside the list items */
+      .navbar a {
+        display: block;
+       margin-left: 18px;
+       font: 18px poppins, sans-serif;
+        color: #7a3331; /* Set your desired text color */
+        text-align: center;
+        padding: 7.5px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+      }
+      
+      /* Change color on hover for links */
+      .navbar a:hover {
+        background-color: #ddd; /* Set your desired hover background color */
+        color: black; /* Set your desired hover text color */
+      }
+      
+      /* Style the dropdown container */
+      .dropdown {
+        display: inline-block;
+        z-index: 1;
+      }
+      
+      /* Style the dropdown button */
+      .dropbtn {
+        background-color: #f2ebeb; /* Set your desired button background color */
+        color: white; /* Set your desired button text color */
+        padding: 14px 16px;
+        border: none;
+        cursor: pointer;
+     
+      }
+      
+      /* Style the dropdown content (hidden by default) */
+      .dropdown-content {
+      position: absolute;
+      background-color: #f9f9f9; /* Set your desired dropdown background color */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: max-height 0.3s ease-in-out; /* Smooth transition */
+      overflow: hidden;
+      border-radius: 10px;
+      max-height: 0; /* Initially hidden */
+      z-index: 2; 
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+        max-height: 500px; /* Adjust the max height as needed */
+      }
+
+      .sale-info {
+        padding: 10px;
+  display: block;
+        color: #545353;
+  max-height: 500px; /* Adjust the max height as needed */
+}
+ .service-category  {
+    padding: 10px; /* to adjust the dropdown*/
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+       .sarees-info{
+        padding: 30px; /* to adjust the dropdown*/
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px; /* Adjust the margin as needed */
+        color: #545353
+       }
+
+/*-----------------menu--------*/
+
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 1s ease-in-out; /* Smooth transition effect */
+    opacity: 0; /* Initially set to transparent */
+}
+
+.background-image.active {
+    opacity: 1; /* Make the active image fully visible */
+}
+
+/* You can add more styles as needed for content inside the slideshow */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+   /* Place above the background image */
+}
+.content h2 {
+    border: 2px solid #ca1e1e; /* Set the border style and color */
+    padding: 20px; /* Add padding for better spacing */
+    background: rgba(255, 255, 255, 0.365);
+    display: inline-block; /* Make the border wrap around the text */
+}
+.di {
+    color: rgb(253, 251, 251); /* Change this to your desired color for "DI" */
+}
+
+.va {
+    color: #7a3331; /* Change this to your desired color for "VA" */
+}
+
+.content .content-left .info h2 {
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content .content-left .info p {
+    font-size: 23px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+ /* Remove underline from the link inside the button */
+.shop-now a {
+    text-decoration: none;
+}
+
+/* Optionally, you can add styles to the button */
+.shop-now {
+    background-color: #f7d9cb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #ab8e8df3;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.list-items h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em; /* Adjust the size as needed */
+    margin-bottom: 50px; /* Add some margin for spacing */
+}
+
+.list-items {
+    width: 90%;
+    max-width: 1500px;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f6efef;
+    border: 1px solid #0a0101;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 250px; /* Set a specific height or adjust as needed */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.food-title {
+    padding: 20px;
+    text-align: center;
+}
+
+.food-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #060606;
+    
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 110px 20px;
+}
+
+.price span {
+    font-size: 1.2rem;
+    color: #2b0bfad6;
+}
+.Add button.add-to-cart {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Adjusted font size */
+}
+
+.Add button.add-to-cart:hover {
+    background-color: #45a049; /* Adjusted color on hover */
+}
+/*styling for contact page*/
+
+.menu .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu .nav ul li {
+    margin-right: 20px;
+}
+
+.menu .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#ContactUs {
+    text-align: center;
+    padding: 20px;
+margin-bottom: -20px;
+}
+
+.form-shape {
+   margin-left: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.radio{
+    margin-left: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-shape label {
+    
+    display: block;
+    
+    margin-bottom: 5px;
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #140707;
+}
+.contact-button{
+    margin-left: 40%;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+.contact-body {
+    color: #fff;
+    background-color: #08223f;
+    font-family: Arial, sans-serif;
+}
+   
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+}
+
+.popup-content {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+
+}
+
+.popup-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.popup-link:hover {
+    background-color: #2559a7;
+}
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #fff;
+}

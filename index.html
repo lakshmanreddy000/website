@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DIVA</title>
+</head>
+<body>
+    <!--              BANNER              -->
+    <div class="banner">
+        <div class="banner-wrap">
+          <span class="limited-offer-hours">Last Few Days!</span>
+          <span><b>Black Friday Sale</b> upto 60% off !</span>
+          <a href="https://alvarotrigo.com/fullPage/black-friday/" target="_blank" class="banner-button">Grab Offer !</a>
+          <button class="close-button" onclick="closeBanner()">X</button>
+        </div>
+      </div>
+
+    <div class="announcement-text">
+        <h1>FREE SHIPPING ACROSS INDIA</h1>
+    </div>
+
+    <!--    toolbar                 -->
+    <ul class="toolbar_menu">
+        <a href="#" >DOWNLOAD THE APP</a>
+        <a href="#">SIZE CHART</a>
+        <a href="#">SHIPPING &amp; DELIVERY</a>    
+        <a href="#">TRACK YOUR ORDER</a>      
+        <a href="#">CUSTOMER REVIEWS</a>
+        <a href="#">RETURNS</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">FAQ's</a>
+      <a href="#"> <svg class="icon-instagram" viewBox="0 0 32 32">
+            <path fill="#444" d="M16 3.094c4.206 0 4.7.019 6.363.094 1.538.069 2.369.325 2.925.544.738.287 1.262.625 1.813 1.175s.894 1.075 1.175 1.813c.212.556.475 1.387.544 2.925.075 1.662.094 2.156.094 6.363s-.019 4.7-.094 6.363c-.069 1.538-.325 2.369-.544 2.925-.288.738-.625 1.262-1.175 1.813s-1.075.894-1.813 1.175c-.556.212-1.387.475-2.925.544-1.663.075-2.156.094-6.363.094s-4.7-.019-6.363-.094c-1.537-.069-2.369-.325-2.925-.544-.737-.288-1.263-.625-1.813-1.175s-.894-1.075-1.175-1.813c-.212-.556-.475-1.387-.544-2.925-.075-1.663-.094-2.156-.094-6.363s.019-4.7.094-6.363c.069-1.537.325-2.369.544-2.925.287-.737.625-1.263 1.175-1.813s1.075-.894 1.813-1.175c.556-.212 1.388-.475 2.925-.544 1.662-.081 2.156-.094 6.363-.094zm0-2.838c-4.275 0-4.813.019-6.494.094-1.675.075-2.819.344-3.819.731-1.037.4-1.913.944-2.788 1.819S1.486 4.656 1.08 5.688c-.387 1-.656 2.144-.731 3.825-.075 1.675-.094 2.213-.094 6.488s.019 4.813.094 6.494c.075 1.675.344 2.819.731 3.825.4 1.038.944 1.913 1.819 2.788s1.756 1.413 2.788 1.819c1 .387 2.144.656 3.825.731s2.213.094 6.494.094 4.813-.019 6.494-.094c1.675-.075 2.819-.344 3.825-.731 1.038-.4 1.913-.944 2.788-1.819s1.413-1.756 1.819-2.788c.387-1 .656-2.144.731-3.825s.094-2.212.094-6.494-.019-4.813-.094-6.494c-.075-1.675-.344-2.819-.731-3.825-.4-1.038-.944-1.913-1.819-2.788s-1.756-1.413-2.788-1.819c-1-.387-2.144-.656-3.825-.731C20.812.275 20.275.256 16 .256z"></path>
+            <path fill="#444" d="M16 7.912a8.088 8.088 0 0 0 0 16.175c4.463 0 8.087-3.625 8.087-8.088s-3.625-8.088-8.088-8.088zm0 13.338a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 1 1 0 10.5zM26.294 7.594a1.887 1.887 0 1 1-3.774.002 1.887 1.887 0 0 1 3.774-.003z"></path>
+        </svg>
+     </a>
+     <a target="_blank" rel="noopener" href="https://www.facebook.com/thekoskii" title="Koskii on Facebook">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon-facebook" viewBox="0 0 14222 14222">
+            <path d="M14222 7112c0 3549.352-2600.418 6491.344-6000 7024.72V9168h1657l315-2056H8222V5778c0-562 275-1111 1159-1111h897V2917s-814-139-1592-139c-1624 0-2686 984-2686 2767v1567H4194v2056h1806v4968.72C2600.418 13603.344 0 10661.352 0 7112 0 3184.703 3183.703 1 7111 1s7111 3183.703 7111 7111zm-8222 7025c362 57 733 86 1111 86-377.945 0-749.003-29.485-1111-86.28zm2222 0v-.28a7107.458 7107.458 0 0 1-167.717 24.267A7407.158 7407.158 0 0 0 8222 14137zm-167.717 23.987C7745.664 14201.89 7430.797 14223 7111 14223c319.843 0 634.675-21.479 943.283-62.013z"></path>
+        </svg>
+      </a>
+      <a target="_blank" rel="noopener" href="https://www.youtube.com/@KoskiiYoutube" title="Koskii on YouTube">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon-youtube" viewBox="0 0 21 20">
+        <path fill="#444" d="M-.196 15.803q0 1.23.812 2.092t1.977.861h14.946q1.165 0 1.977-.861t.812-2.092V3.909q0-1.23-.82-2.116T17.539.907H2.593q-1.148 0-1.969.886t-.82 2.116v11.894zm7.465-2.149V6.058q0-.115.066-.18.049-.016.082-.016l.082.016 7.153 3.806q.066.066.066.164 0 .066-.066.131l-7.153 3.806q-.033.033-.066.033-.066 0-.098-.033-.066-.066-.066-.131z"></path>
+      </svg>
+      <a target="_blank" rel="noopener" href="https://in.pinterest.com/thekoskii/" title="Koskii on Pinterest">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon-pinterest" viewBox="0 0 256 256">
+            <path d="M0 128.002c0 52.414 31.518 97.442 76.619 117.239-.36-8.938-.064-19.668 2.228-29.393 2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136 11.643 0 17.268 8.745 17.268 19.217 0 11.704-7.465 29.211-11.304 45.426-3.207 13.578 6.808 24.653 20.203 24.653 24.252 0 40.586-31.149 40.586-68.055 0-28.054-18.895-49.052-53.262-49.052-38.828 0-63.017 28.956-63.017 61.3 0 11.152 3.288 19.016 8.438 25.106 2.368 2.797 2.697 3.922 1.84 7.134-.614 2.355-2.024 8.025-2.608 10.272-.852 3.242-3.479 4.401-6.409 3.204-17.884-7.301-26.213-26.886-26.213-48.902 0-36.361 30.666-79.961 91.482-79.961 48.87 0 81.035 35.364 81.035 73.325 0 50.213-27.916 87.726-69.066 87.726-13.819 0-26.818-7.47-31.271-15.955 0 0-7.431 29.492-9.005 35.187-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0 57.314 0 0 57.309 0 128.002z"></path>
+        </svg>
+      </a>
+    </ul>
+
+
+    <section class="logomenu">
+        <div class="search-logo">
+          <div class="search-bar">
+            <input type="text" placeholder="Search for items...">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.FguQ5nTH-Vo7DD5BSHfqmAHaHK&pid=Api&P=0&h=220" alt="Search Icon" class="search-icon">
+          </div>
+          <div class="logo">
+            <a href="#">
+            <img src="brand-logo.png" alt="Logo" class="logo">
+            </a>
+        </div>   
+          <svg class="icon-heart" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg" width="25" height="20">
+            <path d="M258.844192 127.790368L145 241.63456 31.1558082 127.790368c-26.9461761-26.946176-26.9461761-70.6345598 0-97.5807359 26.9461762-26.94617613 70.6345598-26.94617613 97.5807358 0L145 46.4730881l16.263456-16.263456c26.946176-26.94617613 70.63456-26.94617613 97.580736 0 26.946176 26.9461761 26.946176 70.6345599 0 97.5807359z"></path>
+        </svg>
+        <a href="login.html">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon-user" width="40" height="40" viewBox="10 10 50 45">
+            <path d="M35 39.84v-2.53c3.3-1.91 6-6.66 6-11.41 0-7.63 0-13.82-9-13.82s-9 6.19-9 13.82c0 4.75 2.7 9.51 6 11.41v2.53c-10.18.85-18 6-18 12.16h42c0-6.19-7.82-11.31-18-12.16z"></path>
+        </svg>
+        </a>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64">
+            <path fill="none" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"></path>
+            <circle cx="27" cy="53" r="2"></circle>
+            <circle cx="47" cy="53" r="2"></circle>
+        </svg>
+        </div>
+      </section>
+      
+<!-- dropdown -->
+  
+<div class="navbar">
+    <ul>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">SALE</a>
+            <div class="dropdown-content">
+              <div class="sale-info">
+                <h3>BUY 2 GET 1 FREE</h3>  
+              </div>
+              <div class="sale-info">
+                <h3>DAILY DEALS</h3>
+              </div>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">SAREES</a>
+            <div class="dropdown-content">
+              <div class="sarees-info">
+                <h3>BY OCCASION</h3>  
+                <P>Wedding Sarees</P>
+                <p>Engagement Sarees</p>
+                <p>Reception Sarees</p>
+                <p>Haldi Sarees</p>
+                <p>Festive Sarees</p>
+                <p>Party Wear Sarees</p>
+              </div>
+              <div class="sarees-info">
+                <h3>BY TYPE</h3>
+                <p>Floral Sarees</p>
+                <p>Pastel Sarees</p>
+                <p>Sequins Sarees</p>
+                <p>Stonework Sarees</p>
+                <p>Printed Sarees</p>
+                <p>Heavy Sarees</p>
+              </div>
+              <div class="sarees-info">
+                <h3>BY MATERIAL</h3>
+                <p>Silk Sarees</p>
+                <p>Banarasi Sarees</p>
+                <p>Crepe Sarees</p>
+                <p>Organza Sarees</p>
+                <p>Net Sarees</p>   
+                <p>Art Silk Sarees</p>
+                <p>Satin Sarees</p>
+              </div>
+              <div class="sarees-info">
+                <h3>BY COLOUR</h3>
+                <p>Black Sarees</p>
+                <p>Yellow Sarees</p>
+                <p>Red Sarees</p>
+                <p>Green Sarees</p>
+                <p>Pink Sarees</p>
+                <p>Blue Sarees</p>
+                <p>Wine Sarees</p>
+              </div>
+            </div>
+        </li>
+      <li class="dropdown">
+         <a href="#" class="dropbtn">DRESS MATERIALS</a>
+         <div class="dropdown-content">
+          <div class="service-category">
+            <h3>Web Design</h3>
+            <p>Lucky</p>
+            <p>Siva</p>
+            <p>Gowtham</p>
+          </div>
+         </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">SALWAR SUITS</a>
+        <div class="dropdown-content">
+          <div class="sale-info">
+            <h3>BUY 2 GET 1 FREE</h3>  
+          </div>
+          <div class="sale-info">
+            <h3>DAILY DEALS</h3>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">LEHANGAS</a>
+        <div class="dropdown-content">
+          <div class="sale-info">
+            <h3>BUY 2 GET 1 FREE</h3>  
+          </div>
+          <div class="sale-info">
+            <h3>DAILY DEALS</h3>
+          </div>
+        </div>
+      </li> 
+      <li class="dropdown">
+        <a href="#" class="dropbtn">OTHERS</a>
+        <div class="dropdown-content">
+          <div class="sale-info">
+            <h3>BUY 2 GET 1 FREE</h3>  
+          </div>
+          <div class="sale-info">
+            <h3>DAILY DEALS</h3>
+          </div>
+        </div>
+      </li> 
+      <li class="dropdown">
+        <a href="#" class="dropbtn">NEW ARRIVALS</a>
+        <div class="dropdown-content">
+          <div class="sale-info">
+            <h3>BUY 2 GET 1 FREE</h3>  
+          </div>
+          <div class="sale-info">
+            <h3>DAILY DEALS</h3>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">OCCASION</a>
+        <div class="dropdown-content">
+          <div class="sale-info">
+            <h3>BUY 2 GET 1 FREE</h3>  
+          </div>
+          <div class="sale-info">
+            <h3>DAILY DEALS</h3>
+          </div>
+        </div>
+    </li>
+    </ul>
+  </div>
+  
+  <!--              slideshow         -->
+ <div class="slideshow-container">
+        <!-- Add more background images as needed -->
+        <img class="background-image active" src="https://wallpapercave.com/dwp2x/wp6403714.jpg" alt="Image 1">
+        <img class="background-image" src="https://wallpapercave.com/dwp2x/wp6389928.jpg" alt="Image 2">
+        <img class="background-image" src="https://wallpapercave.com/dwp2x/wp6042530.jpg" alt="Image 3">
+        <img class="background-image active" src="https://wallpapercave.com/dwp2x/wp2997284.jpg" alt="Image 1">
+    <section class="grid">
+        <div class="content">
+            <div class="content-left">              
+                <div class="info">
+                    <h2>Welcome to<br><span class="di">DI</span><span class="va">VA</span></h2>
+                    <p>Get welcome bonous today Rs200/- off <br> coupon: #TRYNEW</p>                
+                <button class="shop-now"><a href="menu.html">SHOP NOW</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+ </div>  
+
+ <!--section for dishes -->
+
+    <section class="category">
+        <div class="list-items">
+            <h2>Popular Sarees</h2>
+            <div class="card-list">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/bowl-delicious-spicily-spiced-chicken-biryani-sits-against-gloomy-background_410516-2218.jpg?size=626&ext=jpg&ga=GA1.1.1317892392.1700602061&semt=sph" alt="Chicken Burger">
+                    <div class="food-title">
+                        <h1>Chicken Biryani</h1>
+                    </div>
+                    <div class="price">
+                        <span>Cost Rs 199/-</span>
+                    </div>
+                    <div class="Add">
+                        <button onclick="addToCart('Chicken Biryani', 199,'https://img.freepik.com/premium-photo/bowl-delicious-spicily-spiced-chicken-biryani-sits-against-gloomy-background_410516-2218.jpg?size=626&ext=jpg&ga=GA1.1.1317892392.1700602061&semt=sph')" class="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/flame-grilled-meat-cooking-flames-generative-ai_188544-12355.jpg?w=996&t=st=1700602805~exp=1700603405~hmac=517b54b032685b17346c0e045e2370f7bae6ea4e1f965bc67dc5159e8aade370" alt="Chicken Burger">
+                    <div class="food-title">
+                        <h1>Meat Stick</h1>
+                    </div>
+                    <div class="price">
+                        <span>Cost Rs 99/-</span>
+                    </div>
+                    <div class="Add">
+                        <button onclick="addToCart('Meat Stick',99,'https://img.freepik.com/free-photo/flame-grilled-meat-cooking-flames-generative-ai_188544-12355.jpg?w=996&t=st=1700602805~exp=1700603405~hmac=517b54b032685b17346c0e045e2370f7bae6ea4e1f965bc67dc5159e8aade370')" class="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?size=626&ext=jpg&ga=GA1.1.1317892392.1700602061&semt=sph" alt="Red Sause Pasta">
+                    <div class="food-title">
+                        <h1>Red Sause Pasta</h1>
+                    </div>
+                    <div class="price">
+                        <span>Cost Rs 129/-</span>
+                    </div>
+                    <div class="Add">
+                        <button onclick="addToCart('Red Sause Pasta',129,'https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?size=626&ext=jpg&ga=GA1.1.1317892392.1700602061&semt=sph')" class="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/indian-butter-chicken-black-bowl-black-background_123827-20757.jpg?w=826&t=st=1700603015~exp=1700603615~hmac=525de066ee744317d51a388305f5da4fbe3af848f37b6879db6ba5fa71a64b02" alt="Chicken Burger">
+                    <div class="food-title">
+                        <h1>Rice With Butter Chicken</h1>
+                    </div>
+                    <div class="price">
+                        <span>Cost Rs 179/-</span>
+                    </div>
+                    <div class="Add">
+                        <button onclick="addToCart('Rice With Butter Chicken',179,'https://img.freepik.com/free-photo/indian-butter-chicken-black-bowl-black-background_123827-20757.jpg?w=826&t=st=1700603015~exp=1700603615~hmac=525de066ee744317d51a388305f5da4fbe3af848f37b6879db6ba5fa71a64b02')"class="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?w=740&t=st=1700603262~exp=1700603862~hmac=85323667958c9e4620cd530e68ee8de13caceaf57499750c698e44ad14cb273f" alt="Chicken Roll">
+                    <div class="food-title">
+                        <h1>Chicken Roll</h1>
+                    </div>
+                    <div class="price">
+                        <span>Cost Rs 89/-</span>
+                    </div>
+                    <div class="Add">
+                        <button onclick="addToCart('Chicken Roll',89,'https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?w=740&t=st=1700603262~exp=1700603862~hmac=85323667958c9e4620cd530e68ee8de13caceaf57499750c698e44ad14cb273f') "class="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?size=626&ext=jpg&ga=GA1.1.1317892392.1700602061&semt=sph" alt="Chicken Burger">
+                    <div class="food-title">
+                        <h1>Chicken Burger</h1>
+                    </div>
+                    <div class="price">
+                        <span>Cost Rs 69/-</span>
+                    </div>
+                    <div class="Add">
+                        <button onclick="addToCart('Chicken Burger',69,'https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?size=626&ext=jpg&ga=GA1.1.1317892392.1700602061&semt=sph')" class="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Popup Section -->
+     <div class="popup" id="popup">
+        <span class="popup-close" onclick="closePopup()">&times;</span>
+        <p class="popup-content">Download our app now for a seamless shopping experience!</p>
+        <a href="your_app_download_link" class="popup-link">Download Now</a>
+    </div>
+    
+</body>
+
+<script>
+            // JavaScript to show the popup when the page is loaded
+
+      window.onload = function() {
+            document.getElementById('popup').style.display = 'block';
+        };
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+    // JavaScript code for automatic slideshow
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.background-image');
+
+    function showImage(index) {
+        images.forEach(image => image.classList.remove('active'));
+        images[index].classList.add('active');
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    setInterval(nextImage, 5000); // Change image every 5 seconds
+    function addToCart() {
+    // Get the product details (you can fetch these dynamically based on the clicked product)
+    const productName = "Product Name";
+    const price = 20.00;
+
+    // Get the existing cart items from local storage or initialize an empty array
+    let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Add the new item to the cart
+    const newItem = { productName, price };
+    cartItems.push(newItem);
+
+    // Save the updated cart back to local storage
+    localStorage.setItem('cart', JSON.stringify(cartItems));
+
+    // Optionally, you can redirect to the cart page
+}
+
+    
+function addToCart(productName, price, imageUrl) {
+        // Get the existing cart items from local storage or initialize an empty array
+        let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Add the new item to the cart
+        const newItem = { productName, price, imageUrl };
+        cartItems.push(newItem);
+
+        // Save the updated cart back to local storage
+        localStorage.setItem('cart', JSON.stringify(cartItems));
+
+        // Show a dialogue box indicating that the item has been added to the cart
+        alert(`${productName} has been added to your cart!`);
+
+        // Optionally, you can redirect to the cart page
+    }
+    const limitedOfferHours = document.querySelector('.limited-offer-hours');
+    setInterval(() => {
+      limitedOfferHours.style.animation = 'popInOut 2s ease-in-out';
+      setTimeout(() => {
+        limitedOfferHours.style.animation= 'none'
+      }, 1200);
+    }, 200); // Repeat every 2 seconds
+
+    function closeBanner() {
+      var banner = document.querySelector('.banner');
+      banner.style.animation = 'fadeOut 0.5s ease-in-out';
+      setTimeout(() => {
+        banner.style.display = 'none';
+      }, 500);
+    }
+</script>
+
+</html>
